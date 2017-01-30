@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css" title="text/styling">
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Pet Adoption</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Pet-Store</h1>
+      <h3>We are here to facilitate all things pet adoption. Check out our beautiful playmates.</h3>
+      <nav class="navbar">
+        <a href="index.html">Home </a>
+        <a href="available-pets.html">Available Pets </a>
+        <a href="recently-adopted-pets.html">Recently Adopted Pets </a>
+        <a href="enter-a-pet.html">Enter a Pet</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div id="enter-pet-page" class="well">
+        <h3>If you want to put a pet up for adoption, enter their information below.</h3>
+        <form id="enter-pet-form">
+          <div class="form-group">
+            <label for="pet-species">What species is the pet?</label>
+            <input id="pet-species" class="form-control" placeholder="Species">
+          </div>
+          <div class="form-group">
+            <label for="pet-breed">What breed?</label>
+            <input id="pet-breed" class="form-control" placeholder="Breed">
+          </div>
+          <div class="form-group">
+            <label for="pet-name">Enter the pet's name:</label>
+            <input id="pet-name" class="form-control" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="pet-age">Enter the pet's age:</label>
+            <input id="pet-age" class="form-control" placeholder="Age">
+          </div>
+          <div class="form-group">
+            <label for="pet-colors">List your pet's colors and identifiable markings:</label>
+            <input id="pet-colors" class="form-control" placeholder="colors">
+          </div>
+          <div class="radio">
+            <p><strong>Has your pet been vaccinated?</strong></p>
+            <label for="vaccination-yes">
+              <input type="radio" name="vaccinated" value="yes">yes
+            </label>
+          </div>
+          <div class="radio">
+            <label for="vaccination-no">
+              <input type="radio" name="vaccinated" value="no">no
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="pet-bio">Please tell us a little bit about the pet.</label>
+            <input id="pet-bio" class="form-control" placeholder="bio">
+          </div>
+          <div class="form-group">
+            <label for="pet-picture">Pet Picture</label>
+            <input type="file" id="pet-picture">
+            <p class="pet-picture">Upload a picture of the pet</p>
+          </div>
+          <button class="btn" type="submit">Enter</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

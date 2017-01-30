@@ -3,8 +3,8 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css" title="text/styling">
-    <script type="text/javascript" href="js/jquery-3.1.1.js"></script>
-    <script type="text/javascript" href="js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
     <title>Pet Adoption</title>
   </head>
   <body>
@@ -16,7 +16,7 @@
         <a href="index.html">Home </a>
         <a href="available-pets.html">Available Pets </a>
         <a href="recently-adopted-pets.html">Recently Adopted Pets </a>
-        <a href="">Enter a Pet </a>
+        <a href="enter-a-pet.html">Enter a Pet</a>
       </nav>
     </header>
 
@@ -28,50 +28,65 @@
         <p>Here's a bit of information and history about our company. Roof party trust fund gluten-free crucifix pabst venmo gochujang art party, chambray unicorn mumblecore vice. Humblebrag man braid shabby chic narwhal vaporware, roof party heirloom fanny pack +1 blog. Tote bag wolf kinfolk sriracha, chambray taxidermy irony brunch skateboard bespoke gluten-free kogi. Vape air plant 3 wolf moon tote bag, actually bicycle rights trust fund hexagon hammock tacos. IPhone keytar tattooed copper mug neutra yuccie. Art party bicycle rights la croix, craft beer echo park artisan godard brunch 8-bit waistcoat. Bespoke microdosing tousled prism.
 
           Lumbersexual keffiyeh before they sold out viral retro, vexillologist banh mi poutine vinyl pok pok try-hard kale chips woke fanny pack. Master cleanse pabst edison bulb, flexitarian knausgaard salvia microdosing jean shorts schlitz humblebrag put a bird on it paleo readymade. Fixie typewriter gastropub knausgaard fam, iPhone raw denim tumblr man bun. Narwhal bicycle rights cray, trust fund prism pickled beard coloring book. 90's dreamcatcher green juice skateboard, raw denim tote bag chillwave chambray waistcoat deep v semiotics. Tousled poutine man bun, austin brooklyn vexillologist leggings jean shorts franzen food truck echo park. Flannel banh mi VHS forage messenger bag, air plant pinterest microdosing post-ironic craft beer helvetica aesthetic.</p>
+          <button class="btn" type="button">Click to see pets</button>
       </div>
+      <div class="row">
+        <div class="col-md-4">
+            <img id="cat1" class="row-pics" src="img/cat1.jpg" alt="picture of jill the cat"/>
+            <ul>
+              <li>name: Jill</li>
+              <li><span id="not-adopted">not</span> adopted</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+          <img id="cat2" class="row-pics" src="img/cat2.jpg" alt="picture of joan the cat"/>
+          <ul>
+            <li>name: Joan</li>
+            <li><span id="not-adopted"></span> adopted</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <img id="lizard1" class="row-pics" src="img/lizard1.jpg" alt="picture of harry the lizard"/>
+          <ul>
+            <li>name: Harry</li>
+            <li><span id="not-adopted">not</span> adopted</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img id="dog1" class="row-pics" src="img/dog1.jpg" alt="picture of chester the dog"/>
+          <ul>
+            <li>name: Chester</li>
+            <li><span id="not-adopted"></span> adopted</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <img id="dog2" class="row-pics" src="img/dog2.jpg" alt="picture of charles the dog"/>
+          <ul>
+            <li>name: Charles</li>
+            <li><span id="not-adopted">not</span> adopted</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <img id="dog3" class="row-pics" src="img/dog3.jpg" alt="picture of clara the dog"/>
+          <ul>
+            <li>name: CLara</li>
+            <li><span id="not-adopted"></span>adopted</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
 
-      <div id="enter-pet-page" class="well">
-        <h3>If you want to put a pet up for adoption, enter their information below.</h3>
-        <form id="enter-pet-form">
-          <div class="form-group">
-            <label for="pet-species">What species is the pet?</label>
-            <input id="pet-species" class="form-control" placeholder="Species">
-          </div>
-          <div class="form-group">
-            <label for="pet-breed">What breed?</label>
-            <input id="pet-breed" class="form-control" placeholder="Breed">
-          </div>
-          <div class="form-group">
-            <label for="pet-name">Enter the pet's name:</label>
-            <input id="pet-name" class="form-control" placeholder="Name">
-          </div>
-          <div class="form-group">
-            <label for="pet-age">Enter the pet's age:</label>
-            <input id="pet-age" class="form-control" placeholder="Age">
-          </div>
-          <div class="form-group">
-            <label for="pet-colors">List your pet's colors and identifiable markings:</label>
-            <input id="pet-colors" class="form-control" placeholder="colors">
-          </div>
-          <div class="radio">
-            <p><strong>Has your pet been vaccinated?</strong></p>
-            <label for="vaccination-yes">
-              <input type="radio" name="vaccinated" value="yes">yes
-            </label>
-          </div>
-          <div class="radio">
-            <label for="vaccination-no">
-              <input type="radio" name="vaccinated" value="no">no
-            </label>
-          </div>
-          <div class="form-group">
-            <label for="pet-bio">Please tell us a little bit about the pet.</label>
-            <input id="pet-bio" class="form-control" placeholder="bio">
-          </div>
-          <button class="btn" type="submit">Enter</button>
-        </form>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+
+        </div>
       </div>
-      <p>Hi, this is Felix trying to figure out how this work</p>
 
     </div>
   </body>

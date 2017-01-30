@@ -5,21 +5,37 @@ body {
 header {
   background-color: #D99BAC;
   margin-bottom: 30px;
+  padding-left: 15px;
 }
 
 a {
   padding: 5px;
 }
 
-#enter-pet-page {
-  display: none;
+ul {
+  list-style-type: none;
+  margin-top: 30px;
+  margin-left: 15px;
 }
+
+/*#enter-pet-page {
+  display: none;
+}*/
 
 .navbar {
   margin-bottom: 0px;
   padding-top: 25px;
 }
 
+.row-pics {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 5px;
+
+}
 #welcome-page {
   display: none;
 }

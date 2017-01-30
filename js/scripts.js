@@ -42,3 +42,14 @@ testAnimal1["adopted"] = true;
 var testAnimal2 = new Animal();
 var testAnimal3 = new Animal();
 var testList = new List();
+
+
+// 
+// $(document).ready(function() {
+//   $("#cat1").click(function() {
+//     $("#welcome-page").show();
+//   });
+//
+//
+//
+// });
