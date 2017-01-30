@@ -1,0 +1,25 @@
+body {
+  background-color: #9BACD9;
+}
+
+header {
+  background-color: #D99BAC;
+  margin-bottom: 30px;
+}
+
+a {
+  padding: 5px;
+}
+
+#enter-pet-page {
+  display: none;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding-top: 25px;
+}
+
+#welcome-page {
+  display: none;
+}
