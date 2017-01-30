@@ -63,5 +63,4 @@ $(document).ready(function(){
     globalList.addToList(newAnimal);
     clearForm();
   });
-
 });
